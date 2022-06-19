@@ -1,0 +1,30 @@
+body{
+    background-color: #371B58;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    color: #371B58;
+    animation: btfadein 2s;
+    margin-top: 1rem;
+    transition: 0.3s;
+}
+
+@keyframes btfadein {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+button:hover{
+    background-color: gray;
+}
